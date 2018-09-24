@@ -1,0 +1,29 @@
+#!/bin/bash
+
+num=1
+for run in {1..5}
+do
+	python createInput.py 100V$num 100;
+	((num += 1))
+done
+
+num=1
+for run in {1..5}
+do
+	python createInput.py 1000V$num 1000;
+	((num += 1))
+done
+
+num=1
+for run in {1..5}
+do
+	python createInput.py 10000V$num 10000;
+	((num += 1))
+done
+
+num=1
+for run in {1..5}
+do
+	python createInput.py 100000V$num 100000;
+	((num += 1))
+done

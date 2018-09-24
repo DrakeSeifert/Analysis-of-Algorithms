@@ -1,0 +1,3 @@
+Time log
+
+bruteForce '700V1' Time: 1435.4049019813538
